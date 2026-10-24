@@ -2,6 +2,8 @@
 
 A high-precision, responsive scientific calculator web application inspired by the classic scientific calculator (fx-991ES Plus 2nd Edition). Built with React, TypeScript, Tailwind CSS, MathLive, and mathjs.
 
+🌐 **Live Demo**: [https://scientific-calculator-dng.pages.dev](https://scientific-calculator-dng.pages.dev)
+
 ## ✨ Features
 
 - **Realistic Physical Calculator Design**: Authentic keypad layout, natural textbook display, LCD status bar (DEG/RAD, M, STO, Math), and solar panel aesthetic.
