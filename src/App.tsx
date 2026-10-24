@@ -13,8 +13,8 @@ export default function App() {
       bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950
       flex flex-col items-center
       justify-start sm:justify-center
-      py-3 sm:py-6 lg:py-10
-      px-2 sm:px-6 lg:px-8
+      py-1.5 xs:py-2.5 sm:py-6 lg:py-8
+      px-1.5 xs:px-2.5 sm:px-6 lg:px-8
       text-slate-100
     ">
       {/* Page header — smaller on mobile to save space */}

@@ -41,10 +41,10 @@ export function ScientificKeypad({
   };
 
   return (
-    <div className="flex flex-col space-y-2 mt-2 select-none">
+    <div className="flex flex-col space-y-1.5 xs:space-y-2 mt-2 select-none w-full">
       {/* Top Controls Cluster: SHIFT, ALPHA, D-PAD, MODE, ON */}
-      <div className="flex items-center justify-between px-1">
-        <div className="flex flex-col space-y-2 w-14">
+      <div className="flex items-center justify-between px-0.5">
+        <div className="flex flex-col space-y-1.5 sm:space-y-2 w-12 xs:w-13 sm:w-14">
           <CalculatorKey
             label="SHIFT"
             variant="shift"
@@ -65,7 +65,7 @@ export function ScientificKeypad({
           onDown={onReplayDown}
         />
 
-        <div className="flex flex-col space-y-2 w-14">
+        <div className="flex flex-col space-y-1.5 sm:space-y-2 w-12 xs:w-13 sm:w-14">
           <CalculatorKey
             label="MODE"
             shiftLabel="SETUP"
@@ -81,7 +81,7 @@ export function ScientificKeypad({
       </div>
 
       {/* Scientific Function Grid (Row 1: Fraction, Sqrt, Square, Power, Log, Ln) */}
-      <div className="grid grid-cols-6 gap-1 px-1">
+      <div className="grid grid-cols-6 gap-1 xs:gap-1.5 px-0.5">
         <CalculatorKey
           label="x/y"
           shiftLabel="d/c"
@@ -115,7 +115,7 @@ export function ScientificKeypad({
       </div>
 
       {/* Scientific Function Grid (Row 2: (-), DEG, hyp, sin, cos, tan) */}
-      <div className="grid grid-cols-6 gap-1 px-1">
+      <div className="grid grid-cols-6 gap-1 xs:gap-1.5 px-0.5">
         <CalculatorKey
           label="(-)"
           alphaLabel="A"
@@ -153,7 +153,7 @@ export function ScientificKeypad({
       </div>
 
       {/* Scientific Function Grid (Row 3: RCL, ENG, (, ), S<=>D, M+) */}
-      <div className="grid grid-cols-6 gap-1 px-1">
+      <div className="grid grid-cols-6 gap-1 xs:gap-1.5 px-0.5">
         <CalculatorKey
           label="RCL"
           shiftLabel="STO"
@@ -185,7 +185,7 @@ export function ScientificKeypad({
       </div>
 
       {/* Main Numeric & Operator Pad (5 columns) */}
-      <div className="grid grid-cols-5 gap-1.5 px-1 pt-1">
+      <div className="grid grid-cols-5 gap-1 xs:gap-1.5 sm:gap-2 px-0.5 pt-0.5 sm:pt-1">
         {/* Row 1: 7, 8, 9, DEL, AC */}
         <CalculatorKey
           label="7"
